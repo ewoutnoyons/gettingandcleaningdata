@@ -6,7 +6,7 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 The data come from an experiment on human activity recognition by researchers from the University of Genova, Italy. A group of thirty volunteers performed everyday activities, like walking and sitting, wearing a smartphone that measured their body movements.
 
-The directory 'UCI HAR Dataset' contains various files with information on the activity that was performed, an identifier on the person who carried out the experiment, and a 561-feature vector with time and frequency domain variables from the smartphone. The data is partitioned into two sets, where 70% of the volunteers were selected for generating the training data and 30% for the test data.
+The UCI HAR Dataset contains various files with information on the activity that was performed, an identifier on the person who carried out the experiment, and a 561-feature vector with time and frequency domain variables from the smartphone. The data is partitioned into two sets, where 70% of the volunteers were selected for generating the training data and 30% for the test data.
 
 The script run_analysis.R creates two datasets from the experimental data. The first merges the training and test data, and extracts only measurements on the mean and standard deviation for each measurement. The activities are labeled by their description, and the variables names are relabeled to make them more easily readable.
 

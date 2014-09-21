@@ -1,6 +1,3 @@
-## set working directory
-setwd("~/Documents/Getting and Cleaning Data/Data/UCI HAR Dataset")
-
 ## read data from UCI HAR Dataset
 activityLabels <- read.table("activity_labels.txt")
 features <- read.table("features.txt")
